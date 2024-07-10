@@ -228,7 +228,7 @@
       <dependency>
         <groupId>com.google.auth</groupId>
         <artifactId>google-auth-library-oauth2-http</artifactId>
-        <version>1.16.0</version>
+        <version>1.24.0</version>
         <optional>true</optional>
       </dependency>
 
@@ -445,8 +445,8 @@
               <includes>
                 <include>src/**/*.java</include>
               </includes>
-              <trimTrailingWhitespace />
-              <endWithNewline />
+              <trimTrailingWhitespace/>
+              <endWithNewline/>
             </format>
             <!-- removes wildcard imports -->
             <format>
@@ -483,7 +483,7 @@
             </format>
           </formats>
           <java>
-            <removeUnusedImports /> <!-- self-explanatory -->
+            <removeUnusedImports/> <!-- self-explanatory -->
             <googleJavaFormat>
               <version>1.7</version>
             </googleJavaFormat>
@@ -499,7 +499,7 @@
               <order>java,javax,org,com,com.diffplug,
               </order>  <!-- or use <file>${basedir}/eclipse.importorder</file> -->
             </importOrder>
-            <greclipse />          <!-- has its own section below -->
+            <greclipse/>          <!-- has its own section below -->
             <licenseHeader>
               <content>
 /*
